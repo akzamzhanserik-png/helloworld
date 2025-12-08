@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	a := 12
-	b := 31
-	result := a + b
-	fmt.Println(result)
+	arr := [...]string{"Zhanserik", "Ablay", "abay", "Saule", "Meruert"}
+	for i := 0; i < 4; i++ {
+		fmt.Println(arr[i])
+	}
 
 }
